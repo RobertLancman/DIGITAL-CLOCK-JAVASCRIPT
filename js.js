@@ -1,15 +1,64 @@
-let clockS = document.querySelector('.clock__hands--secondHand');
-let clockM = document.querySelector('.clock__hands--minuteHand');
-let clockH = document.querySelector('.clock__hands--hourHand');
+let sec , min, hour,x, y, z, a, b, c, d, e, f ;
 
-//Download time from new Date and put into css
-setInterval(() => {
+let timeToSign = function(timePart, symbol) {
+
+    
+
+    switch (timePart) {
+        case 1:
+                   
+
+            x = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rb`);
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+
+        break;
+
+
+        case 2:
+           
+
+            x = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+
+
+        break;
+
+
+    }
+}
+
+
+let time = function() {
+    setInterval(() => {
     const time = new Date();
-    let secondNum = time.getSeconds() * 6;
-    let minuteNum = time.getMinutes() * 6;
-    let hourNum = time.getHours() * 12;
-    clockS.style.transform = "rotate("+ secondNum +"deg)";
-    clockM.style.transform = "rotate("+ minuteNum +"deg)";
-    clockH.style.transform = "rotate("+ hourNum+"deg)";
-cl}, 1000);
+     sec = time.getSeconds();
+     min = time.getMinutes();
+     hour = time.getHours();  
+     console.log(sec);
+
+     timeToSign(sec,'s');
+     timeToSign(min,'m');
+
+
+}, 1000);
+}
+
+time()
+
+
 
