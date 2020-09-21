@@ -18,12 +18,18 @@
         height: 20rem;
 
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: 1fr 100px 100px 1fr 100px 100px 1fr 100px 100px 1fr;
+        grid-column-gap: 2rem;
 
         &__number {
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
+
+            &--one {
+                grid-column: 2 / 3; 
+                
+            }
 
             &__square {
                 
