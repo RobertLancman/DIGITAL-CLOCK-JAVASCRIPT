@@ -43,6 +43,10 @@ body {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(10, 1fr); }
+        .digital__clock__number__square .circle {
+          width: 1rem;
+          background-color: #fff;
+          grid-row: 5 / 6; }
         .digital__clock__number__square .digital__bar {
           background-color: #fff; }
           .digital__clock__number__square .digital__bar--top {

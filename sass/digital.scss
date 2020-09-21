@@ -27,16 +27,20 @@
             grid-template-rows: 1fr 1fr;
 
             &--one {
-                grid-column: 2 / 3; 
-                
+                grid-column: 2 / 3;                 
             }
 
-            &__square {
-                
+            &__square {                
                 display: grid;
                 grid-template-columns: repeat(10, 1fr);
                 grid-template-rows: repeat(10, 1fr);
 
+
+                .circle {
+                    width: 1rem;
+                    background-color: #fff;
+                    grid-row: 5 / 6;
+                }
                 .digital__bar {
                     
                     background-color: #fff;
