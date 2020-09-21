@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;  
+    color: #fff;
+    line-height: 1.6;
+    
+    background-color: blueviolet;
+ 
+}
+
+
