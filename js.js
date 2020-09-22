@@ -14,18 +14,47 @@ let timeToSign = function(timePart, symbol) {
     switch (timePart) {
         case 1:
                    
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
 
-            x = document.querySelector(`.${symbol}2 .${symbol}rt`);
-            y = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
+
+            
 
             x.style.opacity = 1;
             y.style.opacity = 1;
+            
+
+            x = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rb`);
 
         break;
 
 
         case 2:
            
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
 
             x = document.querySelector(`.${symbol}2 .${symbol}tt`);
             y = document.querySelector(`.${symbol}2 .${symbol}rt`);
@@ -46,13 +75,1455 @@ let timeToSign = function(timePart, symbol) {
         break;
 
 
+
+        case 3:
+           
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
+
+            x = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+
+
+        break;
+
+
+
+        case 4:
+           
+
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
+
+            y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}lt`);
+
+
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+
+
+        break;
+
+        case 5:
+
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+
+
+
+        break;
+
+        case 6:
+           
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 7:
+           
+
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}rt`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            a.style.opacity = 1;
+            
+        break;
+
+
+        case 8:
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 9:
+           
+            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 10:
+           
+
+        
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 11:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 12:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 13:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 14:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+        case 15:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 16:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 17:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 18:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 19:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 20:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 21:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 22:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 23:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 24:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 25:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 26:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 27:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 28:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 29:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 30:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 31:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 32:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+
+        case 33:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 34:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+
+        case 35:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+
+        case 36:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 37:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 38:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 39:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 40:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 41:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 42:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 43:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 44:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 45:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 46:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 47:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 48:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+
+        case 49:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 50:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 51:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 52:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 53:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+
+        case 54:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 55:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 56:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 57:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 58:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+        case 59:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+        case 60:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
+
+
+        case 0:
+           
+
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+
+            y.style.opacity = 1;
+            x.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+            d.style.opacity = 1;
+        break;
     }
 }
 
 
 let time = function() {
     setInterval(() => {
-    resetAll('s')
+    resetAll('s');
+    resetAll('m');
+    resetAll('h');
+
     const time = new Date();
      sec = time.getSeconds();
      min = time.getMinutes();
@@ -61,6 +1532,8 @@ let time = function() {
 
      timeToSign(sec,'s');
      timeToSign(min,'m');
+     timeToSign(hour,'h');
+
 
 }, 1000);
 }
