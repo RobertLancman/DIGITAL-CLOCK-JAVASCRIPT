@@ -1,8 +1,15 @@
-let sec , min, hour,x, y, z, a, b, c, d, e, f ;
+let sec , min, hour,x, y, z, a, b, c, d, e, f , g, h, i, j, k,l;
+
+
+let resetAll = function(symboll) {
+    let reset = document.querySelectorAll(`.${symboll}1 .reset, .${symboll}2 .reset`);
+    for (let i=0; i < reset.length; i++) {
+        reset[i].style.opacity = 0.1;
+    }
+   }
 
 let timeToSign = function(timePart, symbol) {
 
-    
 
     switch (timePart) {
         case 1:
@@ -45,6 +52,7 @@ let timeToSign = function(timePart, symbol) {
 
 let time = function() {
     setInterval(() => {
+    resetAll('s')
     const time = new Date();
      sec = time.getSeconds();
      min = time.getMinutes();
@@ -54,11 +62,20 @@ let time = function() {
      timeToSign(sec,'s');
      timeToSign(min,'m');
 
-
 }, 1000);
 }
 
 time()
 
 
+resetAll('s')
+/*
 
+    let sym1 = document.querySelector(`.${symbol}1 .digital__bar`);
+    let sym2 = document.querySelector(`.${symbol}2 .digital__bar`);
+    sym1.style.opacity = 0.1;
+    sym2.style.opacity = 0.1;
+    */
+   
+
+ 
