@@ -29,13 +29,13 @@ let timeToSign = function(timePart, symbol) {
             l.style.opacity = 1;
 
             
+            x = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rb`);
 
             x.style.opacity = 1;
             y.style.opacity = 1;
             
 
-            x = document.querySelector(`.${symbol}2 .${symbol}rt`);
-            y = document.querySelector(`.${symbol}2 .${symbol}rb`);
 
         break;
 
@@ -264,10 +264,12 @@ let timeToSign = function(timePart, symbol) {
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
             x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            e = document.querySelector(`.${symbol}2 .${symbol}bt`);
+
 
 
 
@@ -278,17 +280,21 @@ let timeToSign = function(timePart, symbol) {
             b.style.opacity = 1;
             c.style.opacity = 1;
             d.style.opacity = 1;
+            e.style.opacity = 1;
+
         break;
 
 
         case 9:
            
-            g = document.querySelector(`.${symbol}1 .${symbol}tt`);
-            h = document.querySelector(`.${symbol}1 .${symbol}bb`);
-            i = document.querySelector(`.${symbol}1 .${symbol}lt`);
-            j = document.querySelector(`.${symbol}1 .${symbol}lb`);
-            k = document.querySelector(`.${symbol}1 .${symbol}rt`);
-            l = document.querySelector(`.${symbol}1 .${symbol}rb`);
+            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            e = document.querySelector(`.${symbol}2 .${symbol}bt`);
 
             g.style.opacity = 1;
             h.style.opacity = 1;
@@ -299,35 +305,39 @@ let timeToSign = function(timePart, symbol) {
 
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
             a = document.querySelector(`.${symbol}2 .${symbol}tb`);
             b = document.querySelector(`.${symbol}2 .${symbol}bt`);
             c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            e = document.querySelector(`.${symbol}2 .${symbol}bb`);
 
 
 
             y.style.opacity = 1;
-            x.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
             d.style.opacity = 1;
+            e.style.opacity = 1;
+
         break;
 
 
         case 10:
            
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
 
+            x.style.opacity = 1;
+            y.style.opacity = 1;
         
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
             x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
 
 
 
@@ -337,107 +347,114 @@ let timeToSign = function(timePart, symbol) {
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
         break;
 
 
         case 11:
            
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
 
-
-
-            y.style.opacity = 1;
             x.style.opacity = 1;
-            z.style.opacity = 1;
-            a.style.opacity = 1;
-            b.style.opacity = 1;
-            c.style.opacity = 1;
-            d.style.opacity = 1;
+            y.style.opacity = 1;
+
+            x = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rb`);
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
         break;
 
 
         case 12:
            
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
 
-
-
-            y.style.opacity = 1;
             x.style.opacity = 1;
+            y.style.opacity = 1;
+
+            x = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
+
         break;
 
 
         case 13:
            
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
 
-
-
-            y.style.opacity = 1;
             x.style.opacity = 1;
+            y.style.opacity = 1;
+
+
+            x = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
         break;
 
 
         case 14:
            
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x.style.opacity = 1;
+            y.style.opacity = 1;
 
+
+             y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}lt`);
 
 
             y.style.opacity = 1;
-            x.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
         break;
 
         case 15:
            
 
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
             a = document.querySelector(`.${symbol}2 .${symbol}tb`);
             b = document.querySelector(`.${symbol}2 .${symbol}bt`);
             c = document.querySelector(`.${symbol}2 .${symbol}rb`);
@@ -446,7 +463,6 @@ let timeToSign = function(timePart, symbol) {
 
 
             y.style.opacity = 1;
-            x.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
@@ -457,6 +473,14 @@ let timeToSign = function(timePart, symbol) {
 
         case 16:
            
+
+           
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+
 
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
@@ -480,37 +504,43 @@ let timeToSign = function(timePart, symbol) {
 
         case 17:
            
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+
 
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}rt`);
 
 
 
             y.style.opacity = 1;
             x.style.opacity = 1;
-            z.style.opacity = 1;
             a.style.opacity = 1;
-            b.style.opacity = 1;
-            c.style.opacity = 1;
-            d.style.opacity = 1;
         break;
 
 
         case 18:
            
 
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
             x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            e = document.querySelector(`.${symbol}2 .${symbol}bt`);
+
 
 
 
@@ -521,153 +551,229 @@ let timeToSign = function(timePart, symbol) {
             b.style.opacity = 1;
             c.style.opacity = 1;
             d.style.opacity = 1;
+            e.style.opacity = 1;
         break;
 
 
         case 19:
            
+            x = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rb`);
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+
 
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
             a = document.querySelector(`.${symbol}2 .${symbol}tb`);
             b = document.querySelector(`.${symbol}2 .${symbol}bt`);
             c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            e = document.querySelector(`.${symbol}2 .${symbol}bb`);
 
 
 
             y.style.opacity = 1;
-            x.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
             d.style.opacity = 1;
+            e.style.opacity = 1;
+
         break;
 
 
         case 20:
            
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
 
 
-
-            y.style.opacity = 1;
             x.style.opacity = 1;
+            y.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
+
+            g = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            h = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            i = document.querySelector(`.${symbol}2 .${symbol}lt`);
+            j = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            k = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            l = document.querySelector(`.${symbol}2 .${symbol}rb`);
+
+            g.style.opacity = 1;
+            h.style.opacity = 1;
+            i.style.opacity = 1;
+            j.style.opacity = 1;
+            k.style.opacity = 1;
+            l.style.opacity = 1;
         break;
 
 
         case 21:
            
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
 
 
-
-            y.style.opacity = 1;
             x.style.opacity = 1;
+            y.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
+
+
+            x = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rb`);
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
         break;
 
 
         case 22:
            
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
 
 
-
-            y.style.opacity = 1;
             x.style.opacity = 1;
+            y.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
+
+
+             x = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
         break;
 
 
         case 23:
            
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
 
 
-
-            y.style.opacity = 1;
             x.style.opacity = 1;
+            y.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
+
+
+
+            x = document.querySelector(`.${symbol}2 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
         break;
 
 
         case 24:
            
 
-            y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
 
 
-
-            y.style.opacity = 1;
             x.style.opacity = 1;
+            y.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
-            d.style.opacity = 1;
+
+
+            y = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}lt`);
+
+
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
         break;
 
 
         case 25:
            
 
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+
+
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
             a = document.querySelector(`.${symbol}2 .${symbol}tb`);
             b = document.querySelector(`.${symbol}2 .${symbol}bt`);
             c = document.querySelector(`.${symbol}2 .${symbol}rb`);
@@ -676,7 +782,6 @@ let timeToSign = function(timePart, symbol) {
 
 
             y.style.opacity = 1;
-            x.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
@@ -687,6 +792,22 @@ let timeToSign = function(timePart, symbol) {
 
         case 26:
            
+
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+
 
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
@@ -711,36 +832,61 @@ let timeToSign = function(timePart, symbol) {
         case 27:
            
 
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
-            z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            x = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}rt`);
 
 
 
             y.style.opacity = 1;
             x.style.opacity = 1;
-            z.style.opacity = 1;
             a.style.opacity = 1;
-            b.style.opacity = 1;
-            c.style.opacity = 1;
-            d.style.opacity = 1;
         break;
 
 
         case 28:
            
 
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+
+
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
             x = document.querySelector(`.${symbol}2 .${symbol}lb`);
-            a = document.querySelector(`.${symbol}2 .${symbol}tb`);
-            b = document.querySelector(`.${symbol}2 .${symbol}bt`);
-            c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            a = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            b = document.querySelector(`.${symbol}2 .${symbol}rb`);
+            c = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}tb`);
+            e = document.querySelector(`.${symbol}2 .${symbol}bt`);
+
 
 
 
@@ -751,29 +897,45 @@ let timeToSign = function(timePart, symbol) {
             b.style.opacity = 1;
             c.style.opacity = 1;
             d.style.opacity = 1;
+            e.style.opacity = 1;
         break;
 
 
         case 29:
            
 
+            x = document.querySelector(`.${symbol}1 .${symbol}tt`);
+            y = document.querySelector(`.${symbol}1 .${symbol}rt`);
+            z = document.querySelector(`.${symbol}1 .${symbol}tb`);
+            a = document.querySelector(`.${symbol}1 .${symbol}bt`);
+            b = document.querySelector(`.${symbol}1 .${symbol}lb`);
+            c = document.querySelector(`.${symbol}1 .${symbol}bb`);
+
+
+            x.style.opacity = 1;
+            y.style.opacity = 1;
+            z.style.opacity = 1;
+            a.style.opacity = 1;
+            b.style.opacity = 1;
+            c.style.opacity = 1;
+
             y = document.querySelector(`.${symbol}2 .${symbol}tt`);
             z = document.querySelector(`.${symbol}2 .${symbol}lt`);
-            x = document.querySelector(`.${symbol}2 .${symbol}lb`);
             a = document.querySelector(`.${symbol}2 .${symbol}tb`);
             b = document.querySelector(`.${symbol}2 .${symbol}bt`);
             c = document.querySelector(`.${symbol}2 .${symbol}rb`);
-            d = document.querySelector(`.${symbol}2 .${symbol}bb`);
+            d = document.querySelector(`.${symbol}2 .${symbol}rt`);
+            e = document.querySelector(`.${symbol}2 .${symbol}bb`);
 
 
 
             y.style.opacity = 1;
-            x.style.opacity = 1;
             z.style.opacity = 1;
             a.style.opacity = 1;
             b.style.opacity = 1;
             c.style.opacity = 1;
             d.style.opacity = 1;
+            e.style.opacity = 1;
         break;
 
 
