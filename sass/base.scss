@@ -19,15 +19,15 @@ html {
     font-size: 62.50%;
     overflow-x: hidden;
 
-    @media only screen and (max-width: $bp-large) {
+    @media (max-width: $bp-large) {
         font-size: 50%; 
     }
 
-    @media only screen and (max-width: $bp-medium) {
+    @media (max-width: $bp-medium) {
         font-size: 40%; 
     }
 
-    @media only screen and (max-width: $bp-small) {
+    @media (max-width: $bp-small) {
         font-size: 25%; 
     }
 }
