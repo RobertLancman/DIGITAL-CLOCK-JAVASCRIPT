@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family: digital;
+    src: url(/font/digital.ttf );
+}
+
 .digital {
     width: 100vw;
     height: 100vh;
@@ -5,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 
     background-image: linear-gradient(
@@ -15,7 +22,7 @@
 
     &__clock {
         width: 80rem;
-        height: 20rem;
+        height: 20rem; 
 
         display: grid;
         grid-template-columns: 1fr 10rem 10rem 1fr 10rem 10rem 1fr 10rem 10rem 1fr;
@@ -81,5 +88,14 @@
             }
             
         }
+    }
+    .date {
+       width: 70rem;
+       font-size: 4.5rem;
+       font-family: digital, sans-serif;
+       color: rgba(255, 255, 255, .3);
+       display: flex;
+       justify-content: center;
+       justify-content: space-between;
     }
 }
