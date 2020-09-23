@@ -31,7 +31,7 @@ body {
 
 @font-face {
   font-family: digital;
-  src: url(/font/digital.ttf); }
+  src: url(../font/digital.ttf); }
 
 .digital {
   width: 100vw;
