@@ -1718,5 +1718,3 @@ let time = function () {
 };
 
 time();
-
-resetAll("s");
