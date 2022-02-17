@@ -1710,6 +1710,15 @@ let time = function () {
     hour = time.getHours();
     date = time.getDay();
 
+    let secLeftDig = Array.from(sec.toString().padStart(2,'0')).map(Number)[0]
+    let secRightDig = Array.from(sec.toString().padStart(2,'0')).map(Number)[1]
+
+    let minLeftDig = Array.from(min.toString().padStart(2,'0')).map(Number)[0]
+    let minRightDig = Array.from(min.toString().padStart(2,'0')).map(Number)[1]
+
+    let hourLeftDig = Array.from(hour.toString().padStart(2,'0')).map(Number)[0]
+    let hourRightDig = Array.from(hour.toString().padStart(2,'0')).map(Number)[1]
+
     timeToSign(sec, "s");
     timeToSign(min, "m");
     timeToSign(hour, "h");
