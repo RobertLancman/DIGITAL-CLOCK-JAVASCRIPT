@@ -1,6 +1,5 @@
 import {timeToSign} from "./changeHour.js"
 
-let sec, min, hour;
 let daysOfWeek = [".mon", ".tue", ".wed", ".thu", ".fri", ".sat", ".sun"];
 
 let resetAll = function (symbol) {
@@ -26,6 +25,8 @@ let displayDate = function (date) {
   displayToday.style.color = "gold";
 };
 
+
+
 let time = function () {
   setInterval(() => {
     resetAll("s");
@@ -33,10 +34,10 @@ let time = function () {
     resetAll("h");
 
     const time = new Date();
-    sec = Array.from((time.getSeconds()).toString().padStart(2,'0')).map(Number);
-    min = Array.from((time.getMinutes()).toString().padStart(2,'0')).map(Number);
-    hour = Array.from((time.getHours()).toString().padStart(2,'0')).map(Number);
-    date = time.getDay();
+    let sec = Array.from((time.getSeconds()).toString().padStart(2,'0')).map(Number);
+    let min = Array.from((time.getMinutes()).toString().padStart(2,'0')).map(Number);
+    let hour = Array.from((time.getHours()).toString().padStart(2,'0')).map(Number);
+    let date = time.getDay();
 
 
     let secLeftDig = sec[0];
@@ -63,3 +64,4 @@ let time = function () {
 };
 
 time();
+// document.addEventListener("DOMContentLoaded", new WeatherApp());
