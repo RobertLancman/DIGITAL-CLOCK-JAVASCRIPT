@@ -30,22 +30,10 @@ let timeToSign = function (timePart, symbol, digitSide) {
   console.log(`Elo ${digitSide}`);
   switch (timePart) {
     case 1:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      x = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rt`);
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
+      x = document.querySelector(`.${symbol}${digitSide} .${symbol}rt`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
 
       x.style.opacity = 1;
       y.style.opacity = 1;
@@ -53,26 +41,14 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 2:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      x = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tt`);
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rt`);
-      z = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tb`);
-      a = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bt`);
-      b = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lb`);
-      c = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bb`);
+      x = document.querySelector(`.${symbol}${digitSide} .${symbol}tt`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}rt`);
+      z = document.querySelector(`.${symbol}${digitSide} .${symbol}tb`);
+      a = document.querySelector(`.${symbol}${digitSide} .${symbol}bt`);
+      b = document.querySelector(`.${symbol}${digitSide} .${symbol}lb`);
+      c = document.querySelector(`.${symbol}${digitSide} .${symbol}bb`);
 
       x.style.opacity = 1;
       y.style.opacity = 1;
@@ -84,26 +60,14 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 3:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      x = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tt`);
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rt`);
-      z = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tb`);
-      a = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bt`);
-      b = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
-      c = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bb`);
+      x = document.querySelector(`.${symbol}${digitSide} .${symbol}tt`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}rt`);
+      z = document.querySelector(`.${symbol}${digitSide} .${symbol}tb`);
+      a = document.querySelector(`.${symbol}${digitSide} .${symbol}bt`);
+      b = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
+      c = document.querySelector(`.${symbol}${digitSide} .${symbol}bb`);
 
       x.style.opacity = 1;
       y.style.opacity = 1;
@@ -115,25 +79,13 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 4:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rt`);
-      z = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tb`);
-      a = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bt`);
-      b = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
-      c = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lt`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}rt`);
+      z = document.querySelector(`.${symbol}${digitSide} .${symbol}tb`);
+      a = document.querySelector(`.${symbol}${digitSide} .${symbol}bt`);
+      b = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
+      c = document.querySelector(`.${symbol}${digitSide} .${symbol}lt`);
 
       y.style.opacity = 1;
       z.style.opacity = 1;
@@ -144,26 +96,14 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 5:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tt`);
-      z = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lt`);
-      a = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tb`);
-      b = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bt`);
-      c = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
-      d = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bb`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}tt`);
+      z = document.querySelector(`.${symbol}${digitSide} .${symbol}lt`);
+      a = document.querySelector(`.${symbol}${digitSide} .${symbol}tb`);
+      b = document.querySelector(`.${symbol}${digitSide} .${symbol}bt`);
+      c = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
+      d = document.querySelector(`.${symbol}${digitSide} .${symbol}bb`);
 
       y.style.opacity = 1;
       z.style.opacity = 1;
@@ -175,27 +115,15 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 6:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tt`);
-      z = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lt`);
-      x = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lb`);
-      a = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tb`);
-      b = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bt`);
-      c = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
-      d = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bb`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}tt`);
+      z = document.querySelector(`.${symbol}${digitSide} .${symbol}lt`);
+      x = document.querySelector(`.${symbol}${digitSide} .${symbol}lb`);
+      a = document.querySelector(`.${symbol}${digitSide} .${symbol}tb`);
+      b = document.querySelector(`.${symbol}${digitSide} .${symbol}bt`);
+      c = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
+      d = document.querySelector(`.${symbol}${digitSide} .${symbol}bb`);
 
       y.style.opacity = 1;
       x.style.opacity = 1;
@@ -207,22 +135,10 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 7:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tt`);
-      x = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
-      a = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rt`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}tt`);
+      x = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
+      a = document.querySelector(`.${symbol}${digitSide} .${symbol}rt`);
 
       y.style.opacity = 1;
       x.style.opacity = 1;
@@ -231,28 +147,16 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 8:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tt`);
-      z = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lt`);
-      x = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lb`);
-      a = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rt`);
-      b = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
-      c = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bb`);
-      d = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tb`);
-      e = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bt`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}tt`);
+      z = document.querySelector(`.${symbol}${digitSide} .${symbol}lt`);
+      x = document.querySelector(`.${symbol}${digitSide} .${symbol}lb`);
+      a = document.querySelector(`.${symbol}${digitSide} .${symbol}rt`);
+      b = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
+      c = document.querySelector(`.${symbol}${digitSide} .${symbol}bb`);
+      d = document.querySelector(`.${symbol}${digitSide} .${symbol}tb`);
+      e = document.querySelector(`.${symbol}${digitSide} .${symbol}bt`);
 
       y.style.opacity = 1;
       x.style.opacity = 1;
@@ -266,27 +170,15 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 9:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      y = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tt`);
-      z = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lt`);
-      a = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tb`);
-      b = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bt`);
-      c = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
-      d = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rt`);
-      e = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bb`);
+      y = document.querySelector(`.${symbol}${digitSide} .${symbol}tt`);
+      z = document.querySelector(`.${symbol}${digitSide} .${symbol}lt`);
+      a = document.querySelector(`.${symbol}${digitSide} .${symbol}tb`);
+      b = document.querySelector(`.${symbol}${digitSide} .${symbol}bt`);
+      c = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
+      d = document.querySelector(`.${symbol}${digitSide} .${symbol}rt`);
+      e = document.querySelector(`.${symbol}${digitSide} .${symbol}bb`);
 
       y.style.opacity = 1;
       z.style.opacity = 1;
@@ -299,26 +191,14 @@ let timeToSign = function (timePart, symbol, digitSide) {
       break;
 
     case 0:
-      g = document.querySelector(`.${symbol}1-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}1-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}1-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}1-${digitSide} .${symbol}rb`);
 
-      g.style.opacity = 1;
-      h.style.opacity = 1;
-      i.style.opacity = 1;
-      j.style.opacity = 1;
-      k.style.opacity = 1;
-      l.style.opacity = 1;
 
-      g = document.querySelector(`.${symbol}2-${digitSide} .${symbol}tt`);
-      h = document.querySelector(`.${symbol}2-${digitSide} .${symbol}bb`);
-      i = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lt`);
-      j = document.querySelector(`.${symbol}2-${digitSide} .${symbol}lb`);
-      k = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rt`);
-      l = document.querySelector(`.${symbol}2-${digitSide} .${symbol}rb`);
+      g = document.querySelector(`.${symbol}${digitSide} .${symbol}tt`);
+      h = document.querySelector(`.${symbol}${digitSide} .${symbol}bb`);
+      i = document.querySelector(`.${symbol}${digitSide} .${symbol}lt`);
+      j = document.querySelector(`.${symbol}${digitSide} .${symbol}lb`);
+      k = document.querySelector(`.${symbol}${digitSide} .${symbol}rt`);
+      l = document.querySelector(`.${symbol}${digitSide} .${symbol}rb`);
 
       g.style.opacity = 1;
       h.style.opacity = 1;
@@ -352,16 +232,15 @@ let time = function () {
     let hourLeftDig = hour[0];
     let hourRightDig = hour[1];
 
+    timeToSign(secLeftDig, "s", "1");
+    timeToSign(secRightDig, "s", "2");
 
-    timeToSign(secRightDig, "s", "right");
-    timeToSign(secLeftDig, "s", "left");
 
+    timeToSign(minLeftDig, "m", "1");
+    timeToSign(minRightDig, "m", "2");
 
-    timeToSign(minLeftDig, "m", "left");
-    timeToSign(minRightDig, "m", "right");
-
-    timeToSign(hourLeftDig, "h", "left");
-    timeToSign(hourRightDig, "h", "right");
+    timeToSign(hourLeftDig, "h", "1");
+    timeToSign(hourRightDig, "h", "2");
 
     displayDate(date);
   }, 100);
